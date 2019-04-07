@@ -27,5 +27,3 @@ fields:
   label: Image
   name: image
   description: Add an header image for your blog post
-pages:
-- content/blog/this-is-a-test.md
