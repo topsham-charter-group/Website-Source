@@ -1,4 +1,29 @@
 ---
 label: Normal Blog Post Template
 hide_body: false
-fields: []
+fields:
+- type: text
+  config:
+    required: true
+  label: Title
+  name: title
+  description: The title of your Blog Post
+- type: textarea
+  name: description
+  label: Description
+  description: The description of your blog post
+  config:
+    required: true
+- type: datetime
+  config:
+    date_format: YYYY/MM/DD
+    time_format: HH:MM:SS
+    display_utc: false
+    required: true
+  label: Date To Post
+  name: date
+  description: The date to post this blog post on
+- type: file
+  label: Image
+  name: image
+  description: Add an header image for your blog post
