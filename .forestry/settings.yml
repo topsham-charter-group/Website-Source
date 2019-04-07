@@ -5,17 +5,12 @@ admin_path:
 webhook_url: 
 sections:
 - type: heading
-  label: Posts
+  label: Editing
 - type: directory
   path: content
   label: Pages
   create: all
   match: "*"
-- type: directory
-  path: content/author
-  label: Author
-  create: all
-  match: "**/*"
 - type: directory
   path: content/blog
   label: Blog
