@@ -27,5 +27,3 @@ fields:
   label: Image
   name: image
   description: Add an header image for your blog post
-pages:
-- content/blog/hello-world.md
