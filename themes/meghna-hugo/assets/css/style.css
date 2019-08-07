@@ -18,7 +18,7 @@ html {
 body {
   background-color: #353b43;
   font-family: "Anaheim", sans-serif;
-  color: #737f8a;
+  color: #ffffff;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -30,7 +30,8 @@ h5,
 h6 {
   font-weight: 400;
   font-family: "Quattrocento Sans", sans-serif;
-  color: #afbac4;
+  color: #F6F6FF;
+  text-decoration: underline;
 }
 
 p {
@@ -602,6 +603,10 @@ a:hover {
   height: 60px;
   width: 60px;
   border-radius: 50px;
+}
+
+.video-button {
+  opacity: 0
 }
 
 .hero-area .block .video-button i {
