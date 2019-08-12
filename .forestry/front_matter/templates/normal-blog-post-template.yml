@@ -28,4 +28,5 @@ fields:
   name: image
   description: Add an header image for your blog post
 pages:
+- content/blog/the-great-gatsby.md
 - content/blog/not-long-now.md
